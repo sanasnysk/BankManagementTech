@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BMS.SignUp3">
+  <grid id="27dc6" binding="framePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="859" height="770"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1cf0a" binding="signup3" layout-manager="GridLayoutManager" row-count="22" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8a781" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="image/bank_signup_2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fc29d" class="javax.swing.JLabel" binding="lblPage2">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="22" style="1"/>
+              <text value="&lt;html&gt;&lt;body&gt;&lt;center&gt;Page 3&lt;br&gt;Account Details&lt;/center&gt;&lt;/body&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="f0a22" class="javax.swing.JLabel" binding="lblFormNo">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <text value="7037"/>
+            </properties>
+          </component>
+          <component id="1bd6e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <text value="Form No."/>
+            </properties>
+          </component>
+          <component id="5c79e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="Account Type :"/>
+            </properties>
+          </component>
+          <component id="ebe05" class="javax.swing.JRadioButton" binding="rbSaving">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Saving Account"/>
+            </properties>
+          </component>
+          <component id="c9076" class="javax.swing.JRadioButton" binding="rbFixed">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Fixed Deposit Account"/>
+            </properties>
+          </component>
+          <component id="d89c1" class="javax.swing.JRadioButton" binding="rbCurrent">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Current Account"/>
+            </properties>
+          </component>
+          <component id="de253" class="javax.swing.JRadioButton" binding="rbRecurring">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Recurring Deposit Account"/>
+            </properties>
+          </component>
+          <component id="14a8c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="Card Number :"/>
+            </properties>
+          </component>
+          <component id="261e2" class="javax.swing.JLabel" binding="lblCardNo">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="XXXX-XXXX-XXXX-4652"/>
+            </properties>
+          </component>
+          <component id="467c4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14" style="1"/>
+              <text value="(Your 16-digit Card Number)"/>
+            </properties>
+          </component>
+          <component id="f2be8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14" style="1"/>
+              <text value="(It would appear on ATM Card/Cheque Book and Statements)"/>
+            </properties>
+          </component>
+          <component id="1dfd4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="PIN Code :"/>
+            </properties>
+          </component>
+          <component id="22ce2" class="javax.swing.JLabel" binding="lblPinCode">
+            <constraints>
+              <grid row="10" column="4" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="XXXX"/>
+            </properties>
+          </component>
+          <component id="fe09f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14" style="1"/>
+              <text value="(4-digit Password)"/>
+            </properties>
+          </component>
+          <component id="13a88" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="18" style="1"/>
+              <text value="Services Required :"/>
+            </properties>
+          </component>
+          <component id="23830" class="javax.swing.JCheckBox" binding="ckbAtm">
+            <constraints>
+              <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="ATM CARD"/>
+            </properties>
+          </component>
+          <component id="df8d3" class="javax.swing.JCheckBox" binding="ckbMobile">
+            <constraints>
+              <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Mobile Banking"/>
+            </properties>
+          </component>
+          <component id="6e721" class="javax.swing.JCheckBox" binding="ckbChequeBook">
+            <constraints>
+              <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Cheque Book"/>
+            </properties>
+          </component>
+          <component id="1c630" class="javax.swing.JCheckBox" binding="ckbInternet">
+            <constraints>
+              <grid row="14" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="Internet Banking"/>
+            </properties>
+          </component>
+          <component id="88dc2" class="javax.swing.JCheckBox" binding="ckbEmail">
+            <constraints>
+              <grid row="15" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="EMAIL Alerts"/>
+            </properties>
+          </component>
+          <component id="fc189" class="javax.swing.JCheckBox" binding="ckbEStatement">
+            <constraints>
+              <grid row="16" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <opaque value="false"/>
+              <text value="E-Statement"/>
+            </properties>
+          </component>
+          <component id="c70cd" class="javax.swing.JCheckBox" binding="ckbIhere">
+            <constraints>
+              <grid row="18" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14" style="1"/>
+              <opaque value="false"/>
+              <selected value="true"/>
+              <text value="I here by declares that the above entered details correct to the best of my knowledge."/>
+            </properties>
+          </component>
+          <component id="aa559" class="javax.swing.JButton" binding="btnSubmit">
+            <constraints>
+              <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Arial" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="Submit"/>
+            </properties>
+          </component>
+          <component id="e2377" class="javax.swing.JButton" binding="btnCancel">
+            <constraints>
+              <grid row="20" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Arial" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+          <component id="beb60" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="0" row-span="20" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="dfa90" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="1" column="8" row-span="20" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="e02e7" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="21" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="15696" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <hspacer id="a39c">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="39e4a" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="29c0f" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="dce03" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="48492" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="76714" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="17" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ce305" class="javax.swing.JToolBar$Separator">
+            <constraints>
+              <grid row="19" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
